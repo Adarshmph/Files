@@ -22,8 +22,8 @@ public class FileExample {
 				+ "7. Getting the Path for the current directory\n"
 				+ "8. Renaming the current file\n"
 				+ "9. Finding files using Patterns\n"
-				+ "10.Copy the file");
-		System.out.println("Enter the case : ");
+				+ "10.Copy the file\n");
+		System.out.println("Enter the case number : ");
 		Scanner s = new Scanner(System.in);
 		int n = s.nextInt();
 		File file = new File("C:/TaskDir");
@@ -72,7 +72,7 @@ public class FileExample {
 		case 5: System.out.println(file1.isHidden());
 				break;
 			
-		case 6: System.out.println(file1.getParent());
+		case 6: System.out.println(file1.getParentFile());
 				break;
 				
 		case 7: System.out.println(file1.getPath());
