@@ -93,6 +93,7 @@ public class FileExample {
             				return name.matches("[a-z A-z 0-9 ]+\\.[a-z]+");
                 }}));
 				System.out.println(list);
+			break;
 				
 		case 10:FileInputStream fis = null;
         		FileOutputStream fos = null;
